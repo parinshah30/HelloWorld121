@@ -15,6 +15,10 @@
 		7DD78EAF1C9A520600E74AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD78EAD1C9A520600E74AE9 /* LaunchScreen.storyboard */; };
 		7DD78EBA1C9A520600E74AE9 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD78EB91C9A520600E74AE9 /* HelloWorldTests.m */; };
 		7DD78EC51C9A520600E74AE9 /* HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD78EC41C9A520600E74AE9 /* HelloWorldUITests.m */; };
+		7DD78ED61C9A541800E74AE9 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD78ED21C9A541800E74AE9 /* Icon-57.png */; };
+		7DD78ED71C9A541800E74AE9 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD78ED31C9A541800E74AE9 /* Icon-60.png */; };
+		7DD78ED81C9A541800E74AE9 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD78ED41C9A541800E74AE9 /* Icon-120.png */; };
+		7DD78ED91C9A541800E74AE9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD78ED51C9A541800E74AE9 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		7DD78EC01C9A520600E74AE9 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD78EC41C9A520600E74AE9 /* HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldUITests.m; sourceTree = "<group>"; };
 		7DD78EC61C9A520600E74AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD78ED21C9A541800E74AE9 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		7DD78ED31C9A541800E74AE9 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		7DD78ED41C9A541800E74AE9 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		7DD78ED51C9A541800E74AE9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				7DD78EA51C9A520600E74AE9 /* ViewController.h */,
 				7DD78EA61C9A520600E74AE9 /* ViewController.m */,
 				7DD78EA81C9A520600E74AE9 /* Main.storyboard */,
+				7DD78ED21C9A541800E74AE9 /* Icon-57.png */,
+				7DD78ED31C9A541800E74AE9 /* Icon-60.png */,
+				7DD78ED41C9A541800E74AE9 /* Icon-120.png */,
+				7DD78ED51C9A541800E74AE9 /* Icon.png */,
 				7DD78EAB1C9A520600E74AE9 /* Assets.xcassets */,
 				7DD78EAD1C9A520600E74AE9 /* LaunchScreen.storyboard */,
 				7DD78EB01C9A520600E74AE9 /* Info.plist */,
@@ -207,6 +219,12 @@
 				TargetAttributes = {
 					7DD78E9B1C9A520500E74AE9 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = R95CJ426UB;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					7DD78EB41C9A520600E74AE9 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,8 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD78ED71C9A541800E74AE9 /* Icon-60.png in Resources */,
+				7DD78ED61C9A541800E74AE9 /* Icon-57.png in Resources */,
 				7DD78EAF1C9A520600E74AE9 /* LaunchScreen.storyboard in Resources */,
 				7DD78EAC1C9A520600E74AE9 /* Assets.xcassets in Resources */,
+				7DD78ED81C9A541800E74AE9 /* Icon-120.png in Resources */,
+				7DD78ED91C9A541800E74AE9 /* Icon.png in Resources */,
 				7DD78EAA1C9A520600E74AE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,9 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.parinshah.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parinshah.HelloWorld121;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -422,9 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.parinshah.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parinshah.HelloWorld121;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
